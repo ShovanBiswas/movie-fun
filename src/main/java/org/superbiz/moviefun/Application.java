@@ -36,7 +36,7 @@ public class Application {
     ) {
         String photoStorageAccessKeyId = serviceCredentials.getCredential("photo-storage", "user-provided", "access_key_id");
         String photoStorageSecretKey = serviceCredentials.getCredential("photo-storage", "user-provided", "secret_access_key");
-        String photoStorageBucket = serviceCredentials.getCredential("photo-storage", "user-provided", "bucket");
+        String photoStorageBucket = "student-artifacts-delaware";  // TODO FIX YOUR CUPS serviceCredentials.getCredential("photo-storage", "user-provided", "bucket");
 
         AWSCredentials credentials = new BasicAWSCredentials(photoStorageAccessKeyId, photoStorageSecretKey);
         AmazonS3Client s3Client = new AmazonS3Client(credentials);
