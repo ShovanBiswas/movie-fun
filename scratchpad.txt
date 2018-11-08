@@ -1,0 +1,3 @@
+export VCAP_SERVICES='{"user-provided": [{"credentials": {"access_key_id": "V3H9WBME8HOW7F7CUH78", "bucket": "moviefun", "secret_access_key": "rC1fV-5de7Tu1E7q-pJu_IaHhBrF4hTFwXnmg0DA", "endpoint": "http://127.0.0.1:9000"}, "name": "photo-storage"}]}'
+
+Work in progress=Deploying to Pivotal Cloud Foundry
